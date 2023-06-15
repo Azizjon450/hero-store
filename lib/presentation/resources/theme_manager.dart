@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:hero_app/presentation/resources/color_manager.dart';
-import 'package:hero_app/presentation/resources/font_manager.dart';
-import 'package:hero_app/presentation/resources/styles_manager.dart';
-import 'package:hero_app/presentation/resources/value_manager.dart';
+import 'color_manager.dart';
+import 'font_manager.dart';
+import 'styles_manager.dart';
+import 'value_manager.dart';
 
 ThemeData getApplicationTheme() {
   return ThemeData(

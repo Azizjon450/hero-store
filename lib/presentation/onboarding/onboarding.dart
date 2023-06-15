@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:hero_app/domain/model.dart';
-import 'package:hero_app/presentation/onboarding/onboarding_view_model.dart';
-import 'package:hero_app/presentation/resources/assets_manager.dart';
-import 'package:hero_app/presentation/resources/color_manager.dart';
-import 'package:hero_app/presentation/resources/strings_manager.dart';
-import 'package:hero_app/presentation/resources/value_manager.dart';
+import '../../domain/model.dart';
+import 'onboarding_view_model.dart';
+import '../resources/assets_manager.dart';
+import '../resources/color_manager.dart';
+import '../resources/strings_manager.dart';
+import '../resources/value_manager.dart';
 
 class OnBoardingView extends StatefulWidget {
   const OnBoardingView({super.key});

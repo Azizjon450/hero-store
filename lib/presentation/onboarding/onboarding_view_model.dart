@@ -1,9 +1,9 @@
 import 'dart:async';
 
-import 'package:hero_app/domain/model.dart';
-import 'package:hero_app/presentation/base/baseviewmodel.dart';
-import 'package:hero_app/presentation/resources/assets_manager.dart';
-import 'package:hero_app/presentation/resources/strings_manager.dart';
+import '../../domain/model.dart';
+import '../base/baseviewmodel.dart';
+import '../resources/assets_manager.dart';
+import '../resources/strings_manager.dart';
 
 class OnBoardingViewModel extends BaseViewModel
     implements OnBoardingViewModelInputs, OnBoardingViewModelOutputs {

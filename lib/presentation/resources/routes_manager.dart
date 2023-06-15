@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:hero_app/presentation/forgot_password/forgot-password.dart';
-import 'package:hero_app/presentation/login/login.dart';
-import 'package:hero_app/presentation/main/main_view.dart';
-import 'package:hero_app/presentation/onboarding/onboarding.dart';
-import 'package:hero_app/presentation/register/register.dart';
-import 'package:hero_app/presentation/resources/strings_manager.dart';
-import 'package:hero_app/presentation/splash/splash.dart';
-import 'package:hero_app/presentation/store_details/store_details.dart';
+import '../forgot_password/forgot-password.dart';
+import '../login/login.dart';
+import '../main/main_view.dart';
+import '../onboarding/onboarding.dart';
+import '../register/register.dart';
+import 'strings_manager.dart';
+import '../splash/splash.dart';
+import '../store_details/store_details.dart';
 
 class Routes {
   static const String splashRoute = '/';
